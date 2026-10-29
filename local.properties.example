@@ -1,0 +1,13 @@
+## Example local.properties
+## Copy this file to local.properties and replace the placeholders.
+## NEVER commit local.properties with real API keys to version control.
+
+# Android SDK directory (set automatically by Android Studio)
+sdk.dir=C:\\Users\\YOUR_USERNAME\\AppData\\Local\\Android\\Sdk
+
+# Google Maps Android SDK Key (Get from https://console.cloud.google.com/)
+MAPS_API_KEY=YOUR_GOOGLE_MAPS_API_KEY
+
+# Gemini API Key for AI Travel Assistant (Get from https://aistudio.google.com/)
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+GEMINI_MODEL=gemini-3.1-flash-lite

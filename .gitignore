@@ -1,0 +1,59 @@
+# Built application files & artifacts
+*.apk
+*.aar
+*.aab
+build/
+app/build/
+*/build/
+
+# Exception for ready-to-install demo APK if needed
+!prebuilt/TouristGuide-debug.apk
+
+# Gradle cache and wrapper binaries
+.gradle/
+
+# Android Studio / IntelliJ IDEA / VS Code
+.idea/
+*.iml
+.vscode/
+.qodo/
+
+# Machine-specific SDK & local configurations (CONTAINS SENSITIVE KEYS)
+local.properties
+secrets.properties
+secure.properties
+*.properties.local
+
+# API Keys, Secrets & Environment files
+*.env
+*.env.*
+!*.env.example
+!local.properties.example
+secrets.xml
+google-services.json
+GoogleService-Info.plist
+
+# Signing & Keystores
+*.jks
+*.keystore
+*.key
+*.pem
+
+# Python & Backend Virtual Environments
+backend/.env
+backend/.venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS & Log Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+captures/
+captured/
+.externalNativeBuild/
+.cxx/
+*.log
